@@ -1,0 +1,16 @@
+[project]
+name = "mcp-tests"
+description = "A project for making a positive impact."
+authors = []
+telemetry = false
+requirements = []
+[contracts.pledge-for-action]
+path = "contracts/pledge-for-action.clar"
+depends_on = []
+
+[repl]
+costs_bns_file = "costs.bns"
+keychain = "testnet/keychain"
+
+[testing]
+testing_bns_file = "testing.bns"
